@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-21 09:13+0000\n"
-"PO-Revision-Date: 2024-01-21 10:42\n"
+"POT-Creation-Date: 2024-02-12 04:47+0000\n"
+"PO-Revision-Date: 2024-02-12 04:49\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -23,35 +23,35 @@ msgid "Audio folder not set or invalid! Recording won't work!\n"
 msgstr "音频文件夹未设置或无效！录音功能将无法使用！\n"
 "请在“偏好设置 > 音频录制”中设置录音文件夹"
 
-#: ../src/core/control/Control.cpp:217
-msgid "Filesystem error: {2}"
+#: ../src/core/control/Control.cpp:218
+msgid "Filesystem error: {1}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:229
+#: ../src/core/control/Control.cpp:230
 msgid "Could not remove old autosave file \"{1}\": {2}"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:546
+#: ../src/core/control/Control.cpp:547
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "工具条配置\"{1}\"是预置的，要产生一个拷贝到编辑?"
 
-#: ../src/core/control/Control.cpp:549
+#: ../src/core/control/Control.cpp:550
 msgid "Yes"
 msgstr "是"
 
-#: ../src/core/control/Control.cpp:549
+#: ../src/core/control/Control.cpp:550
 msgid "No"
 msgstr "否"
 
-#: ../src/core/control/Control.cpp:728
+#: ../src/core/control/Control.cpp:729
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "没有可添加的pdf页面，你可能需要重新打开文档。"
 
-#: ../src/core/control/Control.cpp:742
+#: ../src/core/control/Control.cpp:743
 msgid "Unable to retrieve pdf page."
 msgstr "无法获取 pdf 页面。"
 
-#: ../src/core/control/Control.cpp:1308
+#: ../src/core/control/Control.cpp:1310
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -59,64 +59,64 @@ msgstr "请勿打开自动保存文件。它们可能会被覆盖！\n"
 "复制文件到另一个文件夹。\n"
 "无法打开文件夹 {1} 中的文件。"
 
-#: ../src/core/control/Control.cpp:1322
+#: ../src/core/control/Control.cpp:1324
 msgid "file: {1}"
 msgstr "文件： {1}"
 
-#: ../src/core/control/Control.cpp:1370
+#: ../src/core/control/Control.cpp:1348
+msgid "Error opening file \"{1}\""
+msgstr "打开文件\"{1}\"出错"
+
+#: ../src/core/control/Control.cpp:1356
+msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
+msgstr "正在加载的文件格式版本比当前版本Xournal++支持的文件格式版本更新， 可能无法正确加载，仍要打开？"
+
+#: ../src/core/control/Control.cpp:1483
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "无法找到所附的背景文件。它可能已被移动、重命名或删除。"
 
-#: ../src/core/control/Control.cpp:1373
+#: ../src/core/control/Control.cpp:1486
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "无法找到背景文件\"{1}\"。它可能已被移动、重命名或删除。\n"
 "它最后一次出现是在：\"{2}\""
 
-#: ../src/core/control/Control.cpp:1383
+#: ../src/core/control/Control.cpp:1496
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "拟议替换文件：\"{1}\""
 
-#: ../src/core/control/Control.cpp:1391
+#: ../src/core/control/Control.cpp:1506
 msgid "Use proposed PDF"
 msgstr "使用拟议的 PDF"
 
-#: ../src/core/control/Control.cpp:1393
+#: ../src/core/control/Control.cpp:1508
 msgid "Select another PDF"
 msgstr "选择其他PDF"
 
-#: ../src/core/control/Control.cpp:1394
+#: ../src/core/control/Control.cpp:1509
 msgid "Remove PDF Background"
 msgstr "去掉PDF背景"
 
-#: ../src/core/control/Control.cpp:1395 ../src/core/control/Control.cpp:1918
+#: ../src/core/control/Control.cpp:1510 ../src/core/control/Control.cpp:1925
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "取消"
 
-#: ../src/core/control/Control.cpp:1426
-msgid "Error opening file \"{1}\""
-msgstr "打开文件\"{1}\"出错"
-
-#: ../src/core/control/Control.cpp:1434
-msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
-msgstr "正在加载的文件格式版本比当前版本Xournal++支持的文件格式版本更新， 可能无法正确加载，仍要打开？"
-
-#: ../src/core/control/Control.cpp:1596
+#: ../src/core/control/Control.cpp:1603
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "PDF文件\"{1}\"标注出错\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1700
+#: ../src/core/control/Control.cpp:1707
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "保存文件"
 
-#: ../src/core/control/Control.cpp:1700
+#: ../src/core/control/Control.cpp:1707
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -124,47 +124,47 @@ msgstr "保存文件"
 msgid "_Cancel"
 msgstr "取消 (_C)"
 
-#: ../src/core/control/Control.cpp:1701
+#: ../src/core/control/Control.cpp:1708
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "保存(_S)"
 
-#: ../src/core/control/Control.cpp:1706
+#: ../src/core/control/Control.cpp:1713
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Xournal++ 文件"
 
-#: ../src/core/control/Control.cpp:1753
+#: ../src/core/control/Control.cpp:1760
 msgid "Select font"
 msgstr "选择字体"
 
-#: ../src/core/control/Control.cpp:1768
+#: ../src/core/control/Control.cpp:1775
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "选色"
 
-#: ../src/core/control/Control.cpp:1790
+#: ../src/core/control/Control.cpp:1797
 msgid "Unsaved Document"
 msgstr "未保存文档"
 
-#: ../src/core/control/Control.cpp:1909
+#: ../src/core/control/Control.cpp:1916
 msgid "Document file was removed."
 msgstr "文档已删除。"
 
-#: ../src/core/control/Control.cpp:1909
+#: ../src/core/control/Control.cpp:1916
 msgid "This document is not saved yet."
 msgstr "此文档尚未保存。"
 
-#: ../src/core/control/Control.cpp:1910
+#: ../src/core/control/Control.cpp:1917
 msgid "Save As..."
 msgstr "另存为..."
 
-#: ../src/core/control/Control.cpp:1910 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1917 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "保存"
 
-#: ../src/core/control/Control.cpp:1915
+#: ../src/core/control/Control.cpp:1922
 msgid "Discard"
 msgstr "丢弃"
 
@@ -250,11 +250,17 @@ msgstr "无法加载 LaTeX PDF 文件: {1}"
 msgid "Could not load LaTeX PDF file"
 msgstr "无法加载 LaTeX PDF 文件"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:151
+#: ../src/core/control/PageBackgroundChangeController.cpp:75
+#: ../src/core/control/xojfile/LoadHandler.cpp:469
+#: ../src/core/control/xojfile/LoadHandler.cpp:485
+msgid "Error reading PDF: {1}"
+msgstr "读入PDF出错：{1}"
+
+#: ../src/core/control/PageBackgroundChangeController.cpp:177
 msgid "This image could not be loaded. Error message: {1}"
 msgstr "无法加载此图像。错误消息: {1}"
 
-#: ../src/core/control/PageBackgroundChangeController.cpp:186
+#: ../src/core/control/PageBackgroundChangeController.cpp:212
 msgid "You don't have any PDF pages to select from. Cancel operation.\n"
 "Please select another background type: Menu \"Journal\" → \"Configure Page Template\"."
 msgstr "您没有任何可以选择的 PDF 页面。操作取消。\n"
@@ -519,7 +525,7 @@ msgid "Custom Export"
 msgstr "自定义导出"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:28
-#: ../src/core/control/jobs/PdfExportJob.cpp:20
+#: ../src/core/control/jobs/PdfExportJob.cpp:19
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:48
 msgid "PDF files"
 msgstr "PDF文件"
@@ -710,126 +716,121 @@ msgstr "置于底层"
 msgid "Failed to load image, could not determine image size!"
 msgstr "加载图像失败，无法确定图像大小！"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:143
+#: ../src/core/control/xojfile/LoadHandler.cpp:134
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
 msgstr "文件不是有效的 .xopp 文件 (Mimetype 缺失): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:151
+#: ../src/core/control/xojfile/LoadHandler.cpp:142
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
 msgstr "文件不是有效的 .xopp 文件 (Mimetype 错误): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:160
+#: ../src/core/control/xojfile/LoadHandler.cpp:151
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
 msgstr "文件不是有效的 .xopp 文件 (版本缺失): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:173
+#: ../src/core/control/xojfile/LoadHandler.cpp:164
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
 msgstr "文件不是有效的 .xopp 文件 (版本字符串损坏): \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:182
+#: ../src/core/control/xojfile/LoadHandler.cpp:173
 msgid "Failed to open content.xml in zip archive: \"{1}\""
 msgstr "从 zip 文件 \"{1}\" 中打开 content.xml 失败"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:190
+#: ../src/core/control/xojfile/LoadHandler.cpp:181
 msgid "Could not open file: \"{1}\""
 msgstr "不能打开文件\"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:256
+#: ../src/core/control/xojfile/LoadHandler.cpp:247
 msgid "XML Parser error: {1}"
 msgstr "XML 解析器错误: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:259
+#: ../src/core/control/xojfile/LoadHandler.cpp:250
 msgid "Unknown parser error"
 msgstr "未知的解析器错误"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:270
+#: ../src/core/control/xojfile/LoadHandler.cpp:261
 msgid "Document is not complete (maybe the end is cut off?)"
 msgstr "文档文件不完整"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:274
+#: ../src/core/control/xojfile/LoadHandler.cpp:265
 msgid "Document is corrupted (no pages found in file)"
 msgstr "文档已损坏 (文件中没有找到页面)"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:319
+#: ../src/core/control/xojfile/LoadHandler.cpp:310
 msgid "Unexpected root tag: {1}"
 msgstr "意外的根标签: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:340
+#: ../src/core/control/xojfile/LoadHandler.cpp:331
 msgid "Unexpected tag in document: \"{1}\""
 msgstr "文档中意外的标签: \"{1}\""
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:388
-#: ../src/core/control/xojfile/LoadHandler.cpp:416
+#: ../src/core/control/xojfile/LoadHandler.cpp:379
+#: ../src/core/control/xojfile/LoadHandler.cpp:407
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "未能读入图像：{1}。错误提示为：{2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:426
+#: ../src/core/control/xojfile/LoadHandler.cpp:417
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "无法为克隆背景图像读取页码： {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:434
+#: ../src/core/control/xojfile/LoadHandler.cpp:425
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "未知的 pixmap::domain 类型: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:479
-#: ../src/core/control/xojfile/LoadHandler.cpp:499
-msgid "Error reading PDF: {1}"
-msgstr "读入PDF出错：{1}"
-
-#: ../src/core/control/xojfile/LoadHandler.cpp:486
+#: ../src/core/control/xojfile/LoadHandler.cpp:476
 msgid "Unknown domain type: {1}"
 msgstr "未知的域类型: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:530
+#: ../src/core/control/xojfile/LoadHandler.cpp:514
 msgid "Unknown background type: {1}"
 msgstr "未知背景类型: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:555
+#: ../src/core/control/xojfile/LoadHandler.cpp:539
 msgid "Error reading width of a stroke: {1}"
 msgstr "读入笔划粗细出错：{1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:623
+#: ../src/core/control/xojfile/LoadHandler.cpp:607
 msgid "Unknown stroke cap type: \"{1}\", assuming round"
 msgstr "未知笔划端点类型：“{1}“，将假设为圆形"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:641
+#: ../src/core/control/xojfile/LoadHandler.cpp:625
 msgid "Unknown stroke type: \"{1}\", assuming pen"
 msgstr "未知笔划类型: \"{1}\"，将假设为笔"
 
+#: ../src/core/control/xojfile/LoadHandler.cpp:796
 #: ../src/core/control/xojfile/LoadHandler.cpp:812
-#: ../src/core/control/xojfile/LoadHandler.cpp:828
-#: ../src/core/control/xojfile/LoadHandler.cpp:1142
-#: ../src/core/control/xojfile/LoadHandler.cpp:1156
+#: ../src/core/control/xojfile/LoadHandler.cpp:1126
+#: ../src/core/control/xojfile/LoadHandler.cpp:1140
 msgid "Could not open attachment: {1}. Error message: {2}"
 msgstr "无法打开附件: {1}. 错误消息: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:821
-#: ../src/core/control/xojfile/LoadHandler.cpp:1149
-#: ../src/core/control/xojfile/LoadHandler.cpp:1167
+#: ../src/core/control/xojfile/LoadHandler.cpp:805
+#: ../src/core/control/xojfile/LoadHandler.cpp:1133
+#: ../src/core/control/xojfile/LoadHandler.cpp:1151
 msgid "Could not open attachment: {1}. Error message: No valid file size provided"
 msgstr "无法打开附件: {1}. 错误消息: 没有提供有效的文件大小"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:840
+#: ../src/core/control/xojfile/LoadHandler.cpp:824
 msgid "Could not open attachment: {1}. Error message: Could not read file"
 msgstr "无法打开附件: {1}. 错误消息: 无法读取文件"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:849
+#: ../src/core/control/xojfile/LoadHandler.cpp:833
 msgid "Could not open attachment: {1}. Error message: Could not write file"
 msgstr "无法打开附件: {1}. 错误消息: 无法写入文件"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1036
+#: ../src/core/control/xojfile/LoadHandler.cpp:1020
 msgid "Wrong count of points ({1})"
 msgstr "点数 ({1}) 错误"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1052
+#: ../src/core/control/xojfile/LoadHandler.cpp:1036
 msgid "xoj-File: {1}"
 msgstr "xoj-文件: {1}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1053
+#: ../src/core/control/xojfile/LoadHandler.cpp:1037
 msgid "Wrong number of pressure values, got {1}, expected {2}"
 msgstr "点数错误，读取 {1}，预期 {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:1186
+#: ../src/core/control/xojfile/LoadHandler.cpp:1170
 msgid "Requested temporary file was not found for attachment {1}"
 msgstr "未找到附件 {1} 所要求的临时文件"
 
@@ -1719,8 +1720,8 @@ msgstr "白色"
 msgid "Toolbar found: {1}"
 msgstr "发现工具条：{1}"
 
-#: ../src/core/model/Document.cpp:316 ../src/core/model/Document.cpp:325
-#: ../src/core/model/Document.cpp:328
+#: ../src/core/model/Document.cpp:321 ../src/core/model/Document.cpp:330
+#: ../src/core/model/Document.cpp:333
 msgid "Document not loaded! ({1}), {2}"
 msgstr "文档未加载！({1}), {2}"
 
@@ -1824,6 +1825,10 @@ msgstr "更改线条样式"
 #: ../src/core/undo/MergeLayerDownUndoAction.cpp:39
 msgid "Merge layer down"
 msgstr "向下合并图层"
+
+#: ../src/core/undo/MissingPdfUndoAction.cpp:66
+msgid "Replace missing PDF"
+msgstr ""
 
 #: ../src/core/undo/MoveLayerUndoAction.cpp:26
 msgid "Move layer"
