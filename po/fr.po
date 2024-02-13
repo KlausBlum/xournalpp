@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 04:47+0000\n"
-"PO-Revision-Date: 2024-02-12 04:49\n"
+"POT-Creation-Date: 2024-02-13 12:54+0000\n"
+"PO-Revision-Date: 2024-02-13 17:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -25,11 +25,11 @@ msgstr "Dossier audio non défini ou invalide ! L'enregistrement ne fonctionnera
 
 #: ../src/core/control/Control.cpp:218
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Erreur du système de fichiers : {1}"
 
 #: ../src/core/control/Control.cpp:230
 msgid "Could not remove old autosave file \"{1}\": {2}"
-msgstr ""
+msgstr "Impossible de supprimer l'ancien fichier de sauvegarde automatique \"{1}\" : {2}"
 
 #: ../src/core/control/Control.cpp:547
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
@@ -398,7 +398,7 @@ msgstr "Ouvrir le PDF en mode pièce jointe\n"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "Enregistrer le fichier xopp avec le PDF d'arrière-plan spécifié comme FICHIER"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
@@ -765,15 +765,15 @@ msgid "Unexpected tag in document: \"{1}\""
 msgstr "Balise inattendue dans le document: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:379
-#: ../src/core/control/xojfile/LoadHandler.cpp:407
+#: ../src/core/control/xojfile/LoadHandler.cpp:408
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "Impossible de lire l'image : {1}. Message d'erreur : {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:417
+#: ../src/core/control/xojfile/LoadHandler.cpp:418
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "Impossible de lire le numéro de page pour l'image d'arrière-plan clonée : {1}."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:425
+#: ../src/core/control/xojfile/LoadHandler.cpp:426
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "Type de domaine inconnu : {1}"
 
@@ -1720,8 +1720,8 @@ msgstr "Blanc"
 msgid "Toolbar found: {1}"
 msgstr "Barre d'outils trouvée : {1}"
 
-#: ../src/core/model/Document.cpp:321 ../src/core/model/Document.cpp:330
-#: ../src/core/model/Document.cpp:333
+#: ../src/core/model/Document.cpp:322 ../src/core/model/Document.cpp:331
+#: ../src/core/model/Document.cpp:334
 msgid "Document not loaded! ({1}), {2}"
 msgstr "Document non chargé ! ({1}), {2}"
 
@@ -1828,7 +1828,7 @@ msgstr "Fusionner avec le calque inférieur"
 
 #: ../src/core/undo/MissingPdfUndoAction.cpp:66
 msgid "Replace missing PDF"
-msgstr ""
+msgstr "Remplacer le PDF manquant"
 
 #: ../src/core/undo/MoveLayerUndoAction.cpp:26
 msgid "Move layer"
@@ -1912,19 +1912,19 @@ msgstr "Erreur lors de l'ouverture du fichier : \"{1}\""
 
 #: ../src/util/OutputStream.cpp:48
 msgid "Error writing data to file: \"{1}\""
-msgstr ""
+msgstr "Erreur lors de l'écriture des données dans le fichier : \"{1}\""
 
 #: ../src/util/OutputStream.cpp:49
 msgid "Error code {1}. Message:"
-msgstr ""
+msgstr "Code d'erreur {1}. Message :"
 
 #: ../src/util/OutputStream.cpp:69
 msgid "Error occurred while closing file: \"{1}\""
-msgstr ""
+msgstr "Une erreur s'est produite lors de la fermeture du fichier : \"{1}\""
 
 #: ../src/util/OutputStream.cpp:70
 msgid "Error code {1}"
-msgstr ""
+msgstr "Code d'erreur {1}"
 
 #: ../src/util/PathUtil.cpp:173
 msgid "File couldn't be opened. You have to do it manually:\n"
@@ -4222,7 +4222,7 @@ msgstr "Xournal++ est un logiciel de prise de notes écrit en C++ qui combine fl
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:17
 msgid "Xournal++ features:"
-msgstr ""
+msgstr "Fonctionnalités de Xournal++ :"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:21
 msgid "Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)"
@@ -4230,7 +4230,7 @@ msgstr "Prise en charge des stylets sensibles à la pression et des tablettes de
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:22
 msgid "Paper backgrounds for note-taking, scratch paper, or whiteboarding"
-msgstr ""
+msgstr "Arrière-plans de style papier pour la prise de notes, papier à gratter ou tableau blanc"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:23
 msgid "Annotate on top of PDFs"
@@ -4326,7 +4326,7 @@ msgstr "Prise en charge multilingue (plus de 20 langues supportées)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:46
 msgid "Plugins using Lua scripting"
-msgstr ""
+msgstr "Greffons utilisant le script Lua"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:4
 msgid "Xournal note file"
