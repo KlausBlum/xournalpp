@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 04:47+0000\n"
-"PO-Revision-Date: 2024-02-12 04:49\n"
+"POT-Creation-Date: 2024-02-13 12:54+0000\n"
+"PO-Revision-Date: 2024-02-15 08:08\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -25,7 +25,7 @@ msgstr "A hangmappa nincs beállítva vagy érvénytelen! A felvétel nem fog m�
 
 #: ../src/core/control/Control.cpp:218
 msgid "Filesystem error: {1}"
-msgstr ""
+msgstr "Fájlrendszerhiba: {1}"
 
 #: ../src/core/control/Control.cpp:230
 msgid "Could not remove old autosave file \"{1}\": {2}"
@@ -761,15 +761,15 @@ msgid "Unexpected tag in document: \"{1}\""
 msgstr "Váratlan címke a dokumentumban: „{1}”"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:379
-#: ../src/core/control/xojfile/LoadHandler.cpp:407
+#: ../src/core/control/xojfile/LoadHandler.cpp:408
 msgid "Could not read image: {1}. Error message: {2}"
 msgstr "A kép nem olvasható: {1}. Hibaüzenet: {2}"
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:417
+#: ../src/core/control/xojfile/LoadHandler.cpp:418
 msgid "Could not read page number for cloned background image: {1}."
 msgstr "A klónozott háttérkép {1} oldalszámának olvasása sikertelen."
 
-#: ../src/core/control/xojfile/LoadHandler.cpp:425
+#: ../src/core/control/xojfile/LoadHandler.cpp:426
 msgid "Unknown pixmap::domain type: {1}"
 msgstr "Ismeretlen pixmap::domain típus: {1}"
 
@@ -1716,8 +1716,8 @@ msgstr "Fehér"
 msgid "Toolbar found: {1}"
 msgstr "Eszköztár megtalálva: {1}"
 
-#: ../src/core/model/Document.cpp:321 ../src/core/model/Document.cpp:330
-#: ../src/core/model/Document.cpp:333
+#: ../src/core/model/Document.cpp:322 ../src/core/model/Document.cpp:331
+#: ../src/core/model/Document.cpp:334
 msgid "Document not loaded! ({1}), {2}"
 msgstr "A dokumentum nincs betöltve! ({1}), {2}"
 
@@ -3633,7 +3633,7 @@ msgstr "Eszköztár kezelése"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "_Fájl"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
@@ -3646,7 +3646,7 @@ msgstr "Le_gutóbbi dokumentumok"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "_Jegyzetkészítés PDF-fájlban"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
@@ -3706,7 +3706,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "Beállítások"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
@@ -3726,39 +3726,39 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "Elrendezés"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "_Vízszintes"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "_Függőleges"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "_Balról jobbra"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "_Jobbról balra"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "_Felülről lefelé"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "_Alulról felfelé"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
-msgstr ""
+msgstr "_Oszlopok/Sorok"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
-msgstr ""
+msgstr "Oszlopok beállítása"
 
 #: ../ui/mainmenubar.xml:245
 msgid "_1 Column"
@@ -3794,7 +3794,7 @@ msgstr "_8 oszlop"
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "Sorok beállítása"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
@@ -3822,11 +3822,11 @@ msgstr "_6 sor"
 
 #: ../ui/mainmenubar.xml:321
 msgid "_7 Rows"
-msgstr ""
+msgstr "_7 sor"
 
 #: ../ui/mainmenubar.xml:326
 msgid "_8 Rows"
-msgstr ""
+msgstr "_8 sor"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
@@ -3834,23 +3834,23 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
-msgstr ""
+msgstr "_ Kezelés"
 
 #: ../ui/mainmenubar.xml:344
 msgid "_Customize"
-msgstr ""
+msgstr "_Testreszabás"
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
-msgstr ""
+msgstr "Nagyítás"
 
 #: ../ui/mainmenubar.xml:364
 msgid "Zoom Out"
-msgstr ""
+msgstr "Kicsinyítés"
 
 #: ../ui/mainmenubar.xml:369
 msgid "Normal Size"
-msgstr ""
+msgstr "Eredeti méret"
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
@@ -3962,15 +3962,15 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "_Eszközök"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
-msgstr ""
+msgstr "_Toll"
 
 #: ../ui/mainmenubar.xml:516
 msgid "_Eraser"
-msgstr ""
+msgstr "_Radír"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
@@ -3982,19 +3982,19 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
-msgstr ""
+msgstr "_Kiemelő"
 
 #: ../ui/mainmenubar.xml:540
 msgid "_Text"
-msgstr ""
+msgstr "S_zöveg"
 
 #: ../ui/mainmenubar.xml:546
 msgid "_Image"
-msgstr ""
+msgstr "_Kép"
 
 #: ../ui/mainmenubar.xml:552
 msgid "_Default Tool"
-msgstr ""
+msgstr "_Alapértelmezett eszköz"
 
 #: ../ui/mainmenubar.xml:559
 msgid "Drawing Type"
@@ -4002,56 +4002,56 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:561
 msgid "_Shape Recognizer"
-msgstr ""
+msgstr "_Alakzatfelismerő"
 
 #: ../ui/mainmenubar.xml:586
 msgid "Draw Coordinate System"
-msgstr ""
+msgstr "Koordinátarendszer rajzolása"
 
 #: ../ui/mainmenubar.xml:591
 msgid "Draw _Line"
-msgstr ""
+msgstr "_Vonal rajzolása"
 
 #: ../ui/mainmenubar.xml:632
 msgid "_Vertical Space"
-msgstr ""
+msgstr "_Függőleges térköz"
 
 #: ../ui/mainmenubar.xml:644
 msgid "H_and Tool"
-msgstr ""
+msgstr "_Kéz eszköz"
 
 #: ../ui/mainmenubar.xml:660
 msgid "Pen _Options"
-msgstr ""
+msgstr "Toll _beállításai"
 
 #: ../ui/mainmenubar.xml:663 ../ui/mainmenubar.xml:725
 #: ../ui/mainmenubar.xml:772
 msgid "_very fine"
-msgstr ""
+msgstr "_nagyon finom"
 
 #: ../ui/mainmenubar.xml:668 ../ui/mainmenubar.xml:730
 #: ../ui/mainmenubar.xml:777
 msgid "_fine"
-msgstr ""
+msgstr "_finom"
 
 #: ../ui/mainmenubar.xml:673 ../ui/mainmenubar.xml:735
 #: ../ui/mainmenubar.xml:782
 msgid "_medium"
-msgstr ""
+msgstr "_közepes"
 
 #: ../ui/mainmenubar.xml:678 ../ui/mainmenubar.xml:740
 #: ../ui/mainmenubar.xml:787
 msgid "_thick"
-msgstr ""
+msgstr "_vastag"
 
 #: ../ui/mainmenubar.xml:683 ../ui/mainmenubar.xml:745
 #: ../ui/mainmenubar.xml:792
 msgid "ver_y thick"
-msgstr ""
+msgstr "nagy_on vastag"
 
 #: ../ui/mainmenubar.xml:712 ../ui/mainmenubar.xml:799
 msgid "Fi_ll"
-msgstr ""
+msgstr "_Kitöltés"
 
 #: ../ui/mainmenubar.xml:716 ../ui/mainmenubar.xml:803
 msgid "Fill opacity"
@@ -4087,7 +4087,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:818
 msgid "Text Font..."
-msgstr ""
+msgstr "Szöveg betűkészlete…"
 
 #: ../ui/mainmenubar.xml:823
 msgid "Record / Stop"
@@ -4163,7 +4163,7 @@ msgstr ""
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
-msgstr ""
+msgstr "com.github.xournalpp.xournalpp"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:10
 msgid "Xournal++ is a hand note-taking software written in C++ with the target of flexibility, functionality and speed. Stroke recognizer and other parts are based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input from devices such as Wacom Tablets."
