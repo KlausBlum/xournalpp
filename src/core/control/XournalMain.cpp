@@ -300,7 +300,7 @@ auto saveDoc(const char* input, const char* output) -> int {
     if (!res) {
         g_error("%s", FC(_F("Error: {1}") % newDoc->getLastErrorMsg().c_str()));
     }
-    saver.prepareSave(newDoc.get());
+    saver.prepareSave(newDoc.get(), output);
     saver.saveTo(output);
 
     if (!saver.getErrorMessage().empty()) {
