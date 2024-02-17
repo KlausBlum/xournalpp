@@ -21,6 +21,7 @@
     <item>
      <attribute name="label" translatable="yes">_Annotate PDF</attribute>
      <attribute name="action">win.annotate-pdf</attribute>
+     <attribute name="accel">&lt;Ctrl&gt;i</attribute>
     </item>
     <item>
      <attribute name="label" translatable="yes">Save</attribute>
@@ -31,18 +32,18 @@
      <attribute name="label" translatable="yes">Save As</attribute>
      <attribute name="action">win.save-as</attribute>
      <attribute name="accel">&lt;Ctrl&gt;&lt;Shift&gt;s</attribute>
-     <attribute name="accel">&lt;Ctrl&gt;u</attribute>
     </item>
    </section>
    <section>
     <item>
      <attribute name="label" translatable="yes">_Export as PDF</attribute>
      <attribute name="action">win.export-as-pdf</attribute>
+     <attribute name="accel">&lt;Ctrl&gt;e</attribute>
     </item>
     <item>
      <attribute name="label" translatable="yes">Export as...</attribute>
      <attribute name="action">win.export-as</attribute>
-     <attribute name="accel">&lt;Ctrl&gt;e</attribute>
+     <attribute name="accel">&lt;Ctrl&gt;&lt;Shift&gt;e</attribute>
     </item>
    </section>
    <section>
@@ -516,7 +517,6 @@
      <attribute name="label" translatable="yes">_Eraser</attribute>
      <attribute name="action">win.select-tool</attribute>
      <attribute name="target" type="t">2</attribute> <!-- TOOL_ERASER -->
-     <attribute name="accel">&lt;Ctrl&gt;&lt;Shift&gt;e</attribute>
     </item>
     <item>
      <attribute name="label" translatable="yes">Select Linear Text</attribute>
