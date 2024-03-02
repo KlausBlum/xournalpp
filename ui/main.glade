@@ -1478,92 +1478,107 @@
                             <property name="can-focus">False</property>
                           </object>
                         </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsShapeRecognizer">
-                            <property name="name">menuToolsShapeRecognizer</property>
+						<child>
+                          <object class="GtkMenuItem" id="menuToolsDrawingType">
+                            <property name="name">menuToolsDrawingType</property>
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">_Shape Recognizer</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_SHAPE_RECOGNIZER" swapped="no"/>
-                            <accelerator key="1" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawRect">
-                            <property name="name">menuToolsDrawRect</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Rectangle</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_RECT" swapped="no"/>
-                            <accelerator key="2" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawEllipse">
-                            <property name="name">menuToolsDrawEllipse</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Ellipse</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_ELLIPSE" swapped="no"/>
-                            <accelerator key="3" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawArrow">
-                            <property name="name">menuToolsDrawArrow</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Arrow</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_ARROW" swapped="no"/>
-                            <accelerator key="4" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawDoubleArrow">
-                            <property name="name">menuToolsDrawDoubleArrow</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Double Arrow</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_DOUBLE_ARROW" swapped="no"/>
-                            <accelerator key="5" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawCoordinateSystem">
-                            <property name="name">menuToolsDrawCoordinateSystem</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Coordinate System</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_COORDINATE_SYSTEM" swapped="no"/>
-                            <accelerator key="6" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsRuler">
-                            <property name="name">menuToolsRuler</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw _Line</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_RULER" swapped="no"/>
-                            <accelerator key="7" signal="activate" modifiers="GDK_CONTROL_MASK"/>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkCheckMenuItem" id="menuToolsDrawSpline">
-                            <property name="name">menuToolsDrawSpline</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="label" translatable="yes">Draw Spline</property>
-                            <property name="use-underline">True</property>
-                            <signal name="toggled" handler="ACTION_TOOL_DRAW_SPLINE" swapped="no"/>
-                            <accelerator key="8" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                            <property name="label" translatable="yes">Drawing Type</property>
+                            <property name="use-underline">False</property>
+                            <child type="submenu">
+                              <object class="GtkMenu" id="menu11b">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsShapeRecognizer">
+										<property name="name">menuToolsShapeRecognizer</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">_Shape Recognizer</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_SHAPE_RECOGNIZER" swapped="no"/>
+										<accelerator key="1" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawRect">
+										<property name="name">menuToolsDrawRect</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Rectangle</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_RECT" swapped="no"/>
+										<accelerator key="2" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawEllipse">
+										<property name="name">menuToolsDrawEllipse</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Ellipse</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_ELLIPSE" swapped="no"/>
+										<accelerator key="3" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawArrow">
+										<property name="name">menuToolsDrawArrow</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Arrow</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_ARROW" swapped="no"/>
+										<accelerator key="4" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawDoubleArrow">
+										<property name="name">menuToolsDrawDoubleArrow</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Double Arrow</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_DOUBLE_ARROW" swapped="no"/>
+										<accelerator key="5" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawCoordinateSystem">
+										<property name="name">menuToolsDrawCoordinateSystem</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Coordinate System</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_COORDINATE_SYSTEM" swapped="no"/>
+										<accelerator key="6" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsRuler">
+										<property name="name">menuToolsRuler</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw _Line</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_RULER" swapped="no"/>
+										<accelerator key="7" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+									<child>
+									  <object class="GtkCheckMenuItem" id="menuToolsDrawSpline">
+										<property name="name">menuToolsDrawSpline</property>
+										<property name="visible">True</property>
+										<property name="can-focus">False</property>
+										<property name="label" translatable="yes">Draw Spline</property>
+										<property name="use-underline">True</property>
+										<signal name="toggled" handler="ACTION_TOOL_DRAW_SPLINE" swapped="no"/>
+										<accelerator key="8" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+									  </object>
+									</child>
+						      </object>
+                            </child>
                           </object>
                         </child>
                         <child>
