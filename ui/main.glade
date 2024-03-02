@@ -196,6 +196,7 @@
                             <property name="label" translatable="yes">_Annotate PDF</property>
                             <property name="use-underline">True</property>
                             <signal name="activate" handler="ACTION_ANNOTATE_PDF" swapped="no"/>
+							<accelerator key="i" signal="activate" modifiers="GDK_CONTROL_MASK"/>
                           </object>
                         </child>
                         <child>
@@ -237,6 +238,7 @@
                             <property name="label" translatable="yes">_Export as PDF</property>
                             <property name="use-underline">True</property>
                             <signal name="activate" handler="ACTION_EXPORT_AS_PDF" swapped="no"/>
+							<accelerator key="e" signal="activate" modifiers="GDK_CONTROL_MASK"/>
                           </object>
                         </child>
                         <child>
@@ -247,7 +249,7 @@
                             <property name="label" translatable="yes">Export as...</property>
                             <property name="use-underline">True</property>
                             <signal name="activate" handler="ACTION_EXPORT_AS" swapped="no"/>
-                            <accelerator key="e" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                            <accelerator key="e" signal="activate" modifiers="GDK_SHIFT_MASK | GDK_CONTROL_MASK"/>
                           </object>
                         </child>
                         <child>
@@ -1397,7 +1399,6 @@
                             <property name="use-underline">True</property>
                             <property name="draw-as-radio">True</property>
                             <signal name="toggled" handler="ACTION_TOOL_ERASER" swapped="no"/>
-                            <accelerator key="e" signal="activate" modifiers="GDK_SHIFT_MASK | GDK_CONTROL_MASK"/>
                           </object>
                         </child>
                         <child>
